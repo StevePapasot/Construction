@@ -1,0 +1,99 @@
+/*----------------------------------- International ------------------------------------*/
+body{
+    background-color:#F2F3F5;
+    font-family: sans-serif;
+}
+@media (max-width:768px){
+    body{
+        text-align: center;
+    }
+}
+
+
+/*------------------------------Navbar/Background-big-image ---------------------------------------*/
+#one{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+height:500px;
+background-size: cover;
+z-index:1;
+}
+.btnnav{
+    background-color: #ec1c24;
+    color:white;
+}
+li{
+    font-weight: bold;
+}
+.active a:active{
+    color:#ec1c24;
+}
+.first{
+    font-family: sans-serif;
+    color:#f2f3f5;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.btnb{
+    background-color: #ec1c24;
+    color:white;
+}
+
+
+
+
+/*---------------------------------- Newsletter ---------------------------------------*/
+#six{
+    height:1000px;
+    background-color: #fff;
+}
+.news{
+    font-weight: bold;
+}
+.btnews{
+    background-color: #ec1c24;
+    color: #fff;
+    align-items: left;
+}
+.newsletter{
+    justify-content: center;
+}
+form{
+    width: 450px;
+    margin-left:200px;
+}
+@media (max-width:790px){
+    #six{
+        height:1500px;
+        background-color: #fff;
+    }
+}
+
+/*-------------------------------------- Footer ---------------------------------*/
+footer{
+    background-color: #131d3b;
+    height:400px;
+    position:relative;
+}
+.all {
+    text-align: center;
+}
+.row{
+    text-align: center;
+}
+@media (max-width:768px){
+    footer{
+        background-color: #131d3b;
+        height:900px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+}
+

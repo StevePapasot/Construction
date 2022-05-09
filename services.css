@@ -1,0 +1,131 @@
+body{
+    background-color:#131d3b;
+}
+
+/*--------------------------- Navbar --------------------------------*/
+#one{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height:500px;
+    background-size: cover;
+    height: 250px;
+    z-index:1;
+    }
+    .btnnav{
+        background-color: #ec1c24;
+        color:white;
+    }
+    .nv li{
+        font-weight: bold;
+    }
+    .active a:active{
+        color:#ec1c24;
+    }
+    .first{
+        font-family: sans-serif;
+        color:#ec1c24;
+        font-size: 3rem;
+        font-weight: bold;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        text-align:center;
+    }
+    .btnb{
+        background-color: #ec1c24;
+        color:white;
+    }
+    .imone .txt {
+    align-items: center;
+    }
+
+@media (max-width:700px){
+    #one{
+        height: 350px;
+    }
+}
+@media (max-width:980px){
+    #one{
+        height: 350px;
+    }
+}
+
+/*--------------------------------- Main Body -----------------------------------------*/
+.more {
+    color: #ec1c24;
+    text-align: left;
+}
+.more:hover{
+    color: #ec1c24;
+    text-align: left;
+}
+.bgimg{
+    height: 27rem;
+    z-index:0;
+    position:relative;
+}
+.s11{
+    height:82px;
+    width:82px;
+    background-color: #ec1c24;
+}
+p{
+    line-height:2rem;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+h5{
+    font-size:1.5rem;
+    text-align: left;
+}
+.logo{
+    background-color: #ec1c24;
+    width:120px;
+    height:120px;
+    z-index:1;
+    position:relative;
+    margin-left:20px;
+    margin-top:-50px;
+}
+.card:hover {
+    background: #d4d4d4;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
+
+/*--------------------------------- Footer -----------------------------------*/
+footer{
+    background-color: #131d3b;
+    height:400px;
+    position:relative;
+}
+.all {
+    text-align: center;
+}
+.row{
+    text-align: center;
+}
+.copy p{
+    text-align: center;
+    color: white;
+}
+@media (max-width:768px){
+    footer{
+        background-color: #131d3b;
+        height:900px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+}
+
+
+
+
+
+
+

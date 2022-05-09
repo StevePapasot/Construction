@@ -1,0 +1,118 @@
+/*----------------------------------- International ------------------------------------*/
+body{
+    background-color:#F2F3F5;
+    font-family: sans-serif;
+}
+@media (max-width:768px){
+    body{
+        text-align: center;
+    }
+}
+
+
+/*------------------------------Navbar/Background-big-image ---------------------------------------*/
+#one{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height:500px;
+    background-size: cover;
+    height: 800px;
+    z-index:1;
+    }
+    .btnnav{
+        background-color: #ec1c24;
+        color:white;
+    }
+    .nv li{
+        font-weight: bold;
+    }
+    .active a:active{
+        color:#ec1c24;
+    }
+    .first{
+        font-family: sans-serif;
+        color:#f2f3f5;
+        font-size: 3rem;
+        font-weight: bold;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .onebody{
+        text-align: center;
+        background-image: url('/Images/image/image/aboutbg.jpg');
+        height:620px;
+        z-index:1;
+    }
+    .btnb{
+        background-color: #ec1c24;
+        color:white;
+    }
+    .imone .txt {
+    align-items: center;
+    }
+
+
+
+
+/*----------------------------------Two-------------------------------------------------*/
+.txt{
+    text-align:left;
+}
+p{
+    color: #000;
+}
+.ti {
+    color: #ec1c24;
+}
+
+/*-------------------------------------Three--------------------------------*/
+.easy{
+    background-image: url('Images/image/easy.jpg');
+    height:600px;
+    text-align:center;
+}
+.head {
+    color:#ec1c24;
+}
+.tp{
+    font-size: 30px;
+}
+
+/*------------------------------------- Four ---------------------------------------------*/
+.fo1i .fo1p{
+    align-items:center;
+}
+.hhhh{
+    font-size:35px;
+}
+
+/*-------------------------------------- Footer ---------------------------------*/
+footer{
+    background-color: #131d3b;
+    height:400px;
+    position:relative;
+}
+.all {
+    text-align: center;
+}
+.row{
+    text-align: center;
+}
+.copy p{
+    text-align: center;
+    color: white;
+}
+@media (max-width:768px){
+    footer{
+        background-color: #131d3b;
+        height:900px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+}
+
+
+
